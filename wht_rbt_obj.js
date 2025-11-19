@@ -1,3 +1,4 @@
+//imported for zachary_roberts_portfolio, it has been optimized to run in a stand alone environment. 
 /*wht_rbt_obj.js IS NOT AN OBJECT. It is is a cinimatic transition from modern.ccs to retro.ccs that outputs on transition/index.html.
  Named after the notorious Jurassic Park bug "wht_rbt.obj" from Michael Chrichton's Jurassic Park.*/
 
@@ -23,7 +24,6 @@ iteration++;
 
 if (iteration >= sentinel) {
     clearInterval(timing);
-    window.location.href ="../index.html";
+    window.location.href ="terminus/index.html";
     }
 }, 30);
-//imported for zachary_roberts_portfolio
