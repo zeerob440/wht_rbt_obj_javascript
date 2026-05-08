@@ -22,16 +22,16 @@ BUT....
 //terminal.innerHTML += greet + "<br>".repeat(5);
 //declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
 const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
-const ITERATION = 0;
+let iteration = 0;
 const SENTINEL = 90;
 //set cascading scree interval, effect must be cinematic
 //output string, increment counter
 let timing = setInterval(() => {
     //terminal.innerHTML += ydstmw + "<br>";
-    YDSTMW.textContent()
-    ITERATION++;
-/*exit loop when ineration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
- exceedes sentinel some reason. returns to root index.*/
+    textContent = YDSTMW
+    iteration++;
+/*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
+ exceeds sentinel some reason. returns to root index.*/
 
 if (ITERATION >= SENTINEL) {
     clearInterval(timing);
