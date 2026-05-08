@@ -5,10 +5,10 @@
 /*Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025
 "It's the kicker. wht_rbt.obj, whatever it is, it did it all." -Ray Arnold, Jurassic Park*/
 
-const terminal = document.getElementById("terminal");
+const TERMINAL = document.getElementById("terminal");
 
 // create element
-terminal.textContent = `
+TERMINAL.textContent = `
 ...ACCESSING THE 90's\n
 BUT....
 \n
@@ -21,18 +21,19 @@ BUT....
 
 //terminal.innerHTML += greet + "<br>".repeat(5);
 //declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
-let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
-let iteration = 0;
-let sentinel = 90;
+const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
+const ITERATION = 0;
+const SENTINEL = 90;
 //set cascading scree interval, effect must be cinematic
 //output string, increment counter
 let timing = setInterval(() => {
-    terminal.innerHTML += ydstmw + "<br>";
-iteration++;
+    //terminal.innerHTML += ydstmw + "<br>";
+    YDSTMW.textContent()
+    ITERATION++;
 /*exit loop when ineration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
  exceedes sentinel some reason. returns to root index.*/
 
-if (iteration >= sentinel) {
+if (ITERATION >= SENTINEL) {
     clearInterval(timing);
     window.location.href ="terminus/index.html";
     }
