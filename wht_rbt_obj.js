@@ -21,6 +21,7 @@ BUT....
 
 //terminal.innerHTML += greet + "<br>".repeat(5);
 //declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
+const CRAWL = document.getElementById('i_hate_this_hacker_crap');
 const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
 let iteration = 0;
 const SENTINEL = 90;
@@ -28,7 +29,7 @@ const SENTINEL = 90;
 //output string, increment counter
 let timing = setInterval(() => {
     //terminal.innerHTML += ydstmw + "<br>";
-    TERMINAL.textContent = YDSTMW;
+    CRAWL.textContent = YDSTMW;
     iteration++;
 
 /*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
