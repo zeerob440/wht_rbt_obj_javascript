@@ -28,8 +28,9 @@ const SENTINEL = 90;
 //output string, increment counter
 let timing = setInterval(() => {
     //terminal.innerHTML += ydstmw + "<br>";
-    textContent = YDSTMW
+    TERMINAL.textContent = YDSTMW;
     iteration++;
+
 /*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
  exceeds sentinel some reason. returns to root index.*/
 
