@@ -7,9 +7,19 @@
 
 const terminal = document.getElementById("terminal");
 
-let greet = "...ACCESSING THE 90's...." +"<br>"+"BUT...";
+// create element
+terminal.textContent = `
+...ACCESSING THE 90's\n
+BUT....
+\n
+\n
+\n
+\n
+\n`
 
-terminal.innerHTML += greet + "<br>".repeat(5);
+//let greet = "......." +"<br>"+"BUT...";
+
+//terminal.innerHTML += greet + "<br>".repeat(5);
 //declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
 let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
 let iteration = 0;

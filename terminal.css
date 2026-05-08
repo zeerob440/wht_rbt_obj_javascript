@@ -2,5 +2,6 @@ body
 {background-color: #0000AA;
 color:#FFFFFF;
 font-family: "Lucida Console", monospace;
+white-space: pre-line;
 }
-/*imported from zachary_roberts_portfolio
+
