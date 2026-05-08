@@ -13,8 +13,6 @@ TERMINAL.textContent = `
 BUT....
 \n
 \n
-\n
-\n
 \n`
 
 //let greet = "......." +"<br>"+"BUT...";
@@ -28,7 +26,7 @@ const SENTINEL = 90;
 //set cascading scree interval, effect must be cinematic
 //output string, increment counter
 let timing = setInterval(() => {
-    //terminal.innerHTML += ydstmw + "<br>";
+    
     CRAWL.textContent += YDSTMW;
     iteration++;
 
