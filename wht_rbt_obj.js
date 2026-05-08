@@ -15,18 +15,14 @@ BUT....
 \n
 \n`
 
-//let greet = "......." +"<br>"+"BUT...";
-
-//terminal.innerHTML += greet + "<br>".repeat(5);
-//declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
+//declaration of for loop, set string (YDSTMW), counter (iteration) and robust sentinel value (SENTINEL)
 const CRAWL = document.getElementById('i_hate_this_hacker_crap');
 const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
 let iteration = 0;
 const SENTINEL = 90;
-//set cascading scree interval, effect must be cinematic
-//output string, increment counter
-let timing = setInterval(() => {
-    
+//set cascading screen interval, effect.
+//increment counter
+let timing = setInterval(() => {   
     CRAWL.textContent += YDSTMW;
     iteration++;
 
