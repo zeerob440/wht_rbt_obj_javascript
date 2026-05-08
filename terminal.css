@@ -3,5 +3,6 @@ body
 color:#FFFFFF;
 font-family: "Lucida Console", monospace;
 white-space: pre-line;
+overflow-y: scroll;
 }
 
