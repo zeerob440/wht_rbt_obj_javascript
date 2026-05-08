@@ -17,13 +17,16 @@ BUT....
 
 //declaration of for loop, set string (YDSTMW), counter (iteration) and robust sentinel value (SENTINEL)
 const CRAWL = document.getElementById('i_hate_this_hacker_crap');
+
 const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
 let iteration = 0;
 const SENTINEL = 90;
 //set cascading screen interval, effect.
 //increment counter
-let timing = setInterval(() => {   
+let timing = setInterval(() => { 
     CRAWL.textContent += YDSTMW;
+    //string scrolls as new line iterates.
+    window.scrollTo(0, document.body.scrollHeight);  
     iteration++;
 
 /*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
