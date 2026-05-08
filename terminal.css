@@ -4,5 +4,6 @@ color:#FFFFFF;
 font-family: "Lucida Console", monospace;
 white-space: pre-line;
 overflow-y: scroll;
+background-attachment: fixed;
 }
 
